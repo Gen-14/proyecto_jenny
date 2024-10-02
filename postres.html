@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!-- codificacion que arregla problemas con tildes -->
+        <meta charset="UTF-8">
+        <!-- permite adaptar la pantalla segun su tamaño -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- permite a las buscadores encontraruna pagina en sus resultados -->
+        <meta name="description" content="Ejemplos de HTML">
+        <meta name="keywords" content="HTML, CSS3, JavaScript">
+        <!-- este es el titulo de la pagina -->
+        <title>Recetas Saludables</title>
+        <!-- indica a nuestro HTML el archivo a utilizar para alicar para aplicarv estilos  -->
+        <link rel="stylesheet" href="style.css">
+        <!-- favicon permite definir un icono para la pagina -->
+    </head>
+    <body>
+        <!-- contenedor de todo la pagina -->
+        <div id="agrupar">
+            <!-- encadezado del contenedor -->
+            <header id="cabecera">
+               <h1>Healthy and Delicious</h1>
+            </header>
+            <!-- es un menu principal -->
+            <nav id="menu">
+                <ul>
+                    
+                    <li>Recetas disponibles
+                        <ul>
+                            <li><a href="index.html.html">Principal</a></li>
+                            <li><a href="entradas.html">Recetas de Entradas</a></li>
+                            <li><a href="platoPrincipal.html">Recetas de Platos Principales</a></li>
+                            <li><a href="postres.html">Recetas de Postres</a></li>
+                        </ul>
+                    </li>  
+                   
+                </ul>
+            </nav>   
+             <!--objeto que contiene la informacion de la pagina  -->
+            <section id="seccion">
+            <!-- una informacion de la pagina -->
+                 <article>
+                    <header>
+                        <!-- agrupa elementos de tipo h1, h2, h3... -->
+                        <hgroup>
+                            <h1>Tortitas sin azúcar y sin harina</h1>
+                            <h2>Tiempo de Preparación:25 min, Porciones:2 porciones</h2>
+                        
+                        </hgroup>
+                        <timen datetime="2011-12-10" pubdata>Publicado el 10/12/1011 </timen> 
+                    </header>
+                    <li>Ingredientes</li>
+                    150 g de plátano maduro, 2 huevos L, esencia de vainilla o canela opcional.
+                    <li>Preparación</li>
+                    Pelar el plátano, trocear y aplastar con un tenedor. Añadir los huevos y batir todo muy bien hasta lograr una masa homogénea. 
+                    Podemos añadir un poco de vainilla o canela. Engrasar ligeramente una buena sartén o plancha y calentar a potencia media. Añadir una porción de masa, esperar unos segundos y empujar los bordes con una espátula, para darle más forma redondeada y gruesa.
+                    Cocinar unos 4-5 minutos por cada lado, hasta que salgan burbujas y se despeguen los bordes. Dar la vuelta con cuidado y cocer por el otro lado. Si se rompe al principio tampoco os preocupéis, aplastad la masa para recomponerla. Continuar hasta terminar con la masa y servir inmediatamente.
+                    <!-- elemento que agrupa las imagenes -->
+                    <figure>
+                        <img src="res/imagen1.1.jpg" alt="">
+                        <figcaption>texto de la imagen del primer mensaje</figcaption>
+                    </figure>
+                    <footer>
+                        <p> comentarios (0) </p>
+                    </footer>
+                 </article>
+
+                 <!--una informacion de la pagina  -->
+                 <article>
+                    <header>
+                        <!-- agrupa elementos de tipo h1, h2, h3... -->
+                        <hgroup>
+                            <h1>Helado cremoso de plátano</h1>
+                            <h2>Subtitulo de mensaje dos</h2>
+                        </hgroup>
+                        <timen datetime="2011-12-14" pubdata>Publicado el 15/12/1011 </timen> 
+                    </header>
+                    <li>Ingredientes</li>
+                    2 plátanos grandes muy maduros, 20 ml de mantequilla de cacahuete cremosa sin azúcar.
+                    <li>Preparación</li>
+                    Pelar y cortar en rodajas los plátanos. Congelar en una bolsa de congelación o un recipiente hermético durante al menos dos horas.
+                    Colocar en el vaso de una buena batidora o usar una picadora o procesador de alimentos. Empezar a triturar a alta velocidad en rachas cortas de tiempo, removiendo bien de vez en cuando para evitar que se pegue, hasta tener una textura ligeramente cremosa. Añadir la mantequilla de cacahuete y volver a triturar hasta conseguir la textura cremosa y homogénea deseada. 
+                    Se puede servir directamente o devolver al congelador entre 30 minutos y 1 hora.
+                    <!-- elemento que agrupa las imagenes -->
+                    <figure>
+                        <img src="res/imagen1.2.jpg" alt="">
+                        <figcaption>texto de la imagen del segindo mesaje</figcaption>
+                    </figure>
+                    <footer>
+                        <p> comentarios (0) </p>
+                    </footer>
+                 </article>
+
+            </section>
+            <!-- barra lateral con informacion adicional  -->
+            <!-- <aside id="columna">
+                <blockquote>Mensaje número uno</blockquote>
+                <blockquote>Mensaje número dos</blockquote>
+            </aside> -->
+            <!-- pie de la pagina web -->
+            <footer id="pie">
+                Derchos Reservados &copy; Informarica Desarrollo web 2024.
+            </footer>
+        </div>
+    </body>
+</html>
